@@ -4,8 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "a": "echo \"Error: no test specified\" && exit 1",
+    "yuan": "sass test.scss output-test.css",
+    "class" : "sass class.scss output-class.css"
+
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.1"
+  }
 }
